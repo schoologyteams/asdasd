@@ -1,5 +1,5 @@
 {
-  "name": "burgers_heroku_app",
+  "name": "Burgertime-Heroku",
   "version": "1.0.0",
   "description": "Server scripts add and remove burger entries from a mysql database",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NA-Dev/burgers_heroku_app.git"
+    "url": "git+https://github.com/zhagan/Burgertime-Heroku.git"
   },
   "author": "Nikki Aaron",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NA-Dev/burgers_heroku_app/issues"
+    "url": "https://github.com/zhagan/Burgertime-Heroku/issues"
   },
-  "homepage": "https://github.com/NA-Dev/burgers_heroku_app#readme",
+  "homepage": "https://github.com/zhagan/Burgertime-Heroku#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",

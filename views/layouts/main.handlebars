@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Hamburglar App</title>
+
+		<!-- Bootstrap-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="assets/css/burger_style.css">
+		<!-- Font Awesome Icons-->
+		<script defer 
+		src="https://use.fontawesome.com/releases/v5.0.6/js/all.js">
+		</script>
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="jumbotron text-center">
+				<div class="row">
+					<div class="col-sm-6">
+						<img class="img-fluid rounded" src="assets/img/hamburglar.png" alt="">
+					</div>
+					<div class="title col-sm-6">
+						<h1>The Hamburglar Strikes Again!</h1>
+					</div>
+				</div>
+			</div>
+
+			<form class="add form-inline justify-content-center">
+					<input class="m-3" type="text" id="burger" name="burger_name" 
+					placeholder="New Burger Name" required pattern=[A-Za-z ] maxlength="20">
+					<button type="submit">Add</button>
+			</form>
+
+				{{{ body }}}
+			
+		</div>
+
+		<script src="https://code.jquery.com/jquery.js"></script>
+    <script src="/assets/js/scripts.js" type="text/javascript"></script>
+	</body>
+
+</html>

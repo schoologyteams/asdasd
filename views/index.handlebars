@@ -1,0 +1,13 @@
+<h3 class="text-center mb-3">Click a burger to steal a bite</h3>
+<div class="card-columns">
+  {{#each burgers}}
+    <div class="card" data-id="{{id}}" data-devoured="{{devoured}}">
+      <img class="card-img devoured-{{devoured}}">
+      <div class="card-img-overlay">
+        <h5 class="text-center card-title">
+          {{burger_name}}
+        </h5>
+      </div>
+    </div>
+  {{/each}}
+</div>

@@ -1,0 +1,84 @@
+html {
+  font-size: 1rem; 
+}
+
+body {
+  background-color: darkgoldenrod;
+}
+
+.container {
+  max-width: 980px;
+  min-width: 350px;
+
+}
+
+.jumbotron {
+  background-color: beige;
+}
+
+.jumbotron img {
+  max-width: 300px;
+}
+
+h1 {
+  line-height: 80px;
+}
+
+.title {
+  text-transform: uppercase;
+  font-family: Impact, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+
+.card {
+  background: rgba(0, 0, 0, 0.4);
+  display: inline-block;
+}
+
+.card-img-overlay {
+  background: rgba(0, 0, 0, 0.4);
+  color: beige;  
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+
+.devoured-1 {
+  content: url(../img/hamburger-eaten.png);
+}
+
+.devoured-0 {
+  content: url(../img/hamburger.png);
+}
+
+@media (min-width: 375px) {
+  html {
+    font-size: 1.2rem;
+  }
+  
+  .card-columns {
+    column-count: 1;
+  }
+}
+
+@media (min-width: 650px) {
+  html {
+    font-size: 1.4rem;
+  }
+  
+  .card-columns {
+    column-count: 2;
+  }
+}
+
+@media (min-width: 850px) {
+  html {
+    font-size: 1.6rem;
+  }
+
+  .card-columns {
+    column-count: 3;
+  }
+}
